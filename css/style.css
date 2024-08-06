@@ -19,10 +19,12 @@
     --h2-font: 3rem;
     --p-font:1.1rem;
 }
+
 body{
     background:var(--bg-color);
     color: var((--text-color));
 }
+
 header{
     position :fixed;
     width:100%;
@@ -44,12 +46,15 @@ header{
     font-weight:700;
     letter-spacing:1px;
 }
+
 span{
     color:var(--main-color);
 }
+
 .navlist{
     display:flex;
 }
+
 .navlist a{
     color:var(--second-color);
     font-size:17px;
@@ -57,9 +62,11 @@ span{
     margin: 0 25px;
     transition: all .45s ease;
 }
+
 .navlist a:hover{
     color :var(--main-color)
 }
+
 .navlist a.active{
     color :var(--main-color)
 }
@@ -72,9 +79,11 @@ span{
     margin: left 25px;
     display:none;
 }
+
 section{
     padding:160px 15% 120px;
 }
+
 .home{
     position: relative;
     height:100vh;
@@ -86,9 +95,11 @@ section{
     align-items: center;
     justify-content: flex-start;
 }
+
 .slide{
     margin-bottom:  20px;
 }
+
 .one{
     display:inline-block;
     margin-right: 15px;
@@ -101,12 +112,14 @@ section{
     background: var(--main-color);
     color:var(--text-color);
 }
+
 .two{
     display:inline-block;
     color:var(--second-color);
     font-size: 30px;
     font-weight: 500;
 }
+
 .home-text h1{
     font-size: 4rem;
     font-weight: 600;
@@ -123,12 +136,14 @@ section{
     line-height: 1.1;
     margin: 0 0 35px;
 }
+
 .home-text p{
     color:var(--second-color);
     font-size:var(--p-font);
     line-height: 1.8;
     margin-bottom:40;
 }
+
 .btn{
     display:inline-block;
     padding: 12px 28px;
@@ -140,6 +155,7 @@ section{
     font-weight: 600;
     transition: all .45s ease;
 }
+
 .btn:hover{
     transform: scale(0.9);
 }
