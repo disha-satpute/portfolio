@@ -205,6 +205,7 @@ header.sticky{
 
 .main-text{
     text-align: center;
+    background-image: url('../img/black4.jpg');
  
 }
 
@@ -349,9 +350,9 @@ header.sticky{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-    padding: 200px;
-    margin:20px;
-    gap: 2.5rem;
+    padding: 30px;
+    margin:40px;
+    gap: 15rem;
 }
 .contact-text h4{
     color:var(--text-color);
@@ -395,7 +396,7 @@ margin-bottom: 2.8rem;
  align-items: center;
  justify-content: center;
  border-radius: 8px;
- margin-right: 15px;
+ margin-right: 11px;
  transition: all .45 ease;
 }
 .contact-icons i:hover{
@@ -409,7 +410,7 @@ margin-bottom: 2.8rem;
     position :relative;
 }
 .contact-form form input,form textarea{
-    width: 100%;
+    width: 500%;
     padding: 14px;
     background: var(--bg-color);
     color: var(--text-color);
@@ -417,7 +418,7 @@ margin-bottom: 2.8rem;
     outline: none;
     font-size: 15px;
     border-radius: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .contact-form textarea{
    resize: none;
