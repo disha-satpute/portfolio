@@ -245,7 +245,7 @@ header.sticky{
 }
 
 .box{
-    background: rgb(250, 151, 1);
+    background: linear-gradient(#ff004c,rgba(0,0,0,0.1));
     padding: 35px 45px;
     border-radius: 8px;
     transition: all .45s ease;
@@ -291,8 +291,11 @@ header.sticky{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,auto));
     align-items: center;
-    gap: 2.5rem;
+    gap: 4.5rem;
     background-image: url('../img/black4.jpg');
+     padding-left :8px;
+     padding-right: 8px;
+     padding-top: 8px;
 }
 
 .row{
